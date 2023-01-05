@@ -1,0 +1,61 @@
+.btn-send {
+  font-family: inherit;
+  font-size: 17px;
+  // background: #ffb400;
+  // color: white;
+  padding: 0.4em 1rem;
+  padding-left: 3px;
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: all 0.2s;
+  width: 177px;
+  border: 2px solid #ffb400;
+}
+
+.dark.btn-sendtheme {
+  color: white;
+}
+.light.btn-sendtheme {
+  color: #111;
+}
+
+.btn-send span {
+  display: block;
+  margin-left: 0.3em;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-send svg {
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.3s ease-in-out;
+}
+
+// .btn-send:hover .svg-wrapper {
+//   animation: fly-1 0.6s ease-in-out infinite alternate;
+// }
+
+// .btn-send:hover svg {
+//   transform: translateX(1.2em) rotate(45deg) scale(1.1);
+// }
+
+// .btn-send:hover span {
+//   transform: translateX(0.7em);
+// }
+
+.btn-send:active {
+  transform: scale(0.95);
+}
+
+@keyframes fly-1 {
+  from {
+    transform: translateY(0.1em);
+  }
+
+  to {
+    transform: translateY(-0.1em);
+  }
+}
