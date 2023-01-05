@@ -6,7 +6,6 @@ const ThemeProvider = ({ children }) => {
 
   const handleToggleTheme = () => {
     localStorage.setItem("theme", theme === 'dark' ? 'light' : 'dark')
-    console.log("button clicked")
     if (theme === 'dark') {
       setTheme('light')
     }
