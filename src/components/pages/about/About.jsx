@@ -11,7 +11,7 @@ const About = () => {
   return (
     <div className=' dark:text-white text-sec dark:bg-sec bg-white min-w-full min-h-full md:px-20 lg:px-28 pb-10'>
       {/* //!ABOUT ME */}
-      <div className='text-[30px] relative md:text-5xl uppercase font-[900] md:p-6 md:ml-10 md:text-center '>
+      <div className=' md:py-[5rem] text-[30px] relative md:text-5xl uppercase font-[900] md:px-6 md:ml-10 md:text-center '>
         <p className='hidden md:block font-extrabold opacity-[0.07] text-8xl font-secondary absolute right-0 left-0 top-2/4 -translate-y-2/4 tracking-[10px]'>RESUME</p>
         <p className='font-secondary md:p-0 p-5 md:bg-opacity-0 bg-zinc-900 '>
           <span className=''>About </span><span className=' text-pri'>me</span>
