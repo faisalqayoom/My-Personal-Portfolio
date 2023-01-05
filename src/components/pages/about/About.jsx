@@ -211,28 +211,10 @@ const About = () => {
                     </div>
                   </p>
                 </p>
-              </div> 
+              </div>
             </div>
           </div>
         </div>
-
-
-        {/* <div>
-          <div className='mr-6 justify-center  px-4'>
-            <span className='p-3 pb-0 inline-block text-2xl bg-gray rounded-full fill-slate-100'>
-              <MdOutlineWork className='mt-5' />
-            </span>
-            <span className=' ml-6 mb-3 font-semibold '>MY PERSONAL PORTFOLIO.</span>
-            <ul>
-              <li className='list-disc ml-[75px] mt-5 leading-7 font-light'>This portfolio is a collection of my most notable projects and achievements, and is meant to give you a sense of my skills and abilities.
-              </li>
-            </ul>
-            <div className=' flex flex-row mt-5'>
-              <p className='ml-14 text-xs font-semibold rounded-full text-light-gray w-fit px-4 py-1 mt-1 mx-3 bg-slate-800'>React Js</p>
-              <p className="text-xs font-semibold rounded-full text-light-gray w-fit px-4 py-1 mt-1 mx-3 bg-slate-800">Tailwind css</p>
-            </div>
-          </div>
-        </div> */}
       </div>
     </div >
   )
