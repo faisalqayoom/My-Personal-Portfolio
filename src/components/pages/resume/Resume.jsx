@@ -59,8 +59,8 @@ const Resume = () => {
                 <li className='list-disc ml-5 my-1'>Bootstrap/Tailwind</li>
                 <li className='list-disc ml-5 my-1'>JavaScript</li>
                 <li className='list-disc ml-5 my-1'>React Js</li>
+                <li className='list-disc ml-5 my-1'>Redux/Redux-Toolkit</li>
                 <li className='list-disc ml-5 my-1'>Java</li>
-                <li className='list-disc ml-5 my-1'>SQL</li>
               </ul>
             </div>
           </div>

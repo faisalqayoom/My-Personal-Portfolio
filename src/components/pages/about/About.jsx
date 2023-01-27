@@ -7,6 +7,8 @@ import { MdOutlineWork } from "react-icons/md"
 import { ThemeContext } from '../../../context/Contxt';
 
 const About = () => {
+
+
   const { theme } = useContext(ThemeContext);
   return (
     <div className=' dark:text-white text-sec dark:bg-sec bg-white min-w-full min-h-full md:px-20 lg:px-28 pb-10'>
@@ -218,6 +220,8 @@ const About = () => {
       </div>
     </div >
   )
+
 }
+
 
 export default About
