@@ -10,7 +10,7 @@ const Resume = () => {
     <div className=' dark:text-white text-sec dark:bg-sec bg-white h-full w-full md:px-20 lg:px-28 pb-6 '>
       <div className='flex mx-5'>
         <div className=' lg:ml-auto '>
-          <a href='resume/FQS-CV.pdf' target='blank' ><button className={`buttonDownload my-5 ${theme}-btn-download`}>Download</button></a>
+          <a href='resume/Faisal-Qayoom.pdf' target='blank' ><button className={`buttonDownload my-5 ${theme}-btn-download`}>Download</button></a>
         </div>
       </div>
       <div className='text-center py-6 dark:bg-gray bg-gray mb-5'>
