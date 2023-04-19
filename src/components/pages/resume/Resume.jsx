@@ -10,7 +10,7 @@ const Resume = () => {
     <div className=' dark:text-white text-sec dark:bg-sec bg-white h-full w-full md:px-20 lg:px-28 pb-6 '>
       <div className='flex mx-5'>
         <div className=' lg:ml-auto '>
-          <a href='resume/Faisal-Qayoom.pdf' target='blank' ><button className={`buttonDownload my-5 ${theme}-btn-download`}>Download</button></a>
+          <a href='resume/Faisal-Qayoom().pdf' target='blank' ><button className={`buttonDownload my-5 ${theme}-btn-download`}>Download</button></a>
         </div>
       </div>
       <div className='text-center py-6 dark:bg-gray bg-gray mb-5'>
@@ -58,9 +58,11 @@ const Resume = () => {
                 <li className='list-disc ml-5 my-1'>CSS</li>
                 <li className='list-disc ml-5 my-1'>Bootstrap/Tailwind</li>
                 <li className='list-disc ml-5 my-1'>JavaScript</li>
-                <li className='list-disc ml-5 my-1'>React Js</li>
+                <li className='list-disc ml-5 my-1'>React Js/Next Js</li>
                 <li className='list-disc ml-5 my-1'>Redux/Redux-Toolkit</li>
-                <li className='list-disc ml-5 my-1'>Java</li>
+                <li className='list-disc ml-5 my-1'>Node Js</li>
+                <li className='list-disc ml-5 my-1'>Express Js</li>
+                <li className='list-disc ml-5 my-1'>MongoDb</li>
               </ul>
             </div>
           </div>
@@ -81,23 +83,74 @@ const Resume = () => {
         </div>
         <div className='right-side'>
           <div className='education'>
+            <p className=' text-2xl font-semibold text-pri md:mt-3 mt-4'>Internship</p>
+            <hr className=' w-72 mb-4 pb-[1px] mt-[2px] bg-pri' />
+            <ul className=' marker:text-pri leading-7'>
+              <li className=' font-semibold text-lg'>Codemites Srinagar</li>
+              <li className=' list-disc ml-5 my-1 '>NodeJs and ReactJs Intern</li>
+              <li className=' list-disc ml-5 my-1 '><span className=' font-semibold'>Technologies: </span>JavaScript ,ReactJs, NodeJs</li>
+              <li className=' list-disc ml-5 my-1 mb-4'>oct-2022 - march-2023</li>
+
+            </ul>
+          </div>
+          <div className='education'>
             <p className=' text-2xl font-semibold text-pri md:mt-3 mt-4'>Education Background</p>
             <hr className=' w-72 mb-4 pb-[1px] mt-[2px] bg-pri' />
             <ul className=' marker:text-pri leading-7'>
               <li className=' font-semibold text-lg'>Jyothy Institute of Technology,Bangalore, INDIA</li>
               <li className=' list-disc ml-5 my-1 '>B-Tech (Electronics and Communication Engineering)</li>
-              <li className=' list-disc ml-5 my-1 '>CGPA:8.14</li>
-              <li className=' list-disc ml-5 my-1 mb-4'>2018 - 2022</li>
+              <div className=' flex'>
+                <li className=' list-disc ml-5 my-1 mr-auto'>CGPA:8.14</li>
+                <li className='  ml-5 my-1 mb-4'>2018 - 2022</li>
+              </div>
               <li className=' font-semibold text-lg'>Govt. Boys Higher Secondary, Pampore,Jammu and Kashmir, INDIA</li>
-              <li className=' list-disc ml-5 my-1'>10+2 (PUC)</li>
-              <li className=' list-disc ml-5 my-1'>Major - PCMB</li>
-              <li className=' list-disc ml-5 my-1'>2017-2018</li>
-              <li className=' list-disc ml-5 my-1'>Percentage - 76%</li>
+              <div className=' flex'>
+                <li className=' list-disc ml-5 my-1 mr-auto'>10+2 (PUC)</li>
+                <li className='  ml-5 my-1'>2017-2018</li>
+              </div>
+              <div className=' flex'>
+                <li className=' list-disc ml-5 my-1 mr-auto'>Major - PCMB</li>
+                <li className='  ml-5 my-1'>Percentage - 76%</li>
+              </div>
             </ul>
           </div>
           <p className=' text-2xl font-semibold text-pri mt-8'>Projects</p>
           <hr className=' w-28 mb-4 pb-[1px] mt-[2px] bg-pri' />
+
+
+          <div className="projects-1 leading-8 mb-3">
+            <p className='font-semibold text-lg '>My Personal Portfolio.</p>
+            <ul className=' marker:text-pri'>
+              <li className=' list-disc list ml-5 my-1'> <span className=' font-semibold'>Technologies used: </span>HTML , CSS, JavaScript , React-Js,
+                Tailwind-CSS.</li>
+              <li className='  list-disc list ml-5 my-1'><span className=' font-semibold'>Link: </span><a className='underline leading-1' href="https://faisalqayoom.birdscode.com/">faisalqayoom.birdscode.com</a> </li>
+            </ul>
+          </div>
+          <div className="projects-1 leading-8 mb-3">
+            <p className='font-semibold text-lg '>Washington-Toe.</p>
+            <ul className=' marker:text-pri'>
+              <li className="c"><span className=' font-semibold'>Professional Portfolio: </span> Project for Washington S.
+                Toe -Banker, Author, Entrepreneur, and
+                Philanthropist"</li>
+              <li className=' list-disc list ml-5 my-1'> <span className=' font-semibold'>Technologies used: </span>HTML , CSS, JavaScript , React-Js,
+                Tailwind-CSS.</li>
+              <li className='  list-disc list ml-5 my-1'><span className=' font-semibold'>Link: </span><a className='underline leading-1' href="https://washingtontoe.com/">washingtontoe.com</a> </li>
+            </ul>
+          </div>
           <div className="projects-1 leading-8">
+            <p className='font-semibold text-lg '>Capitol Cafe.</p>
+            <li className="c"><span className=' font-semibold'>Café Project: </span> Offering a Diverse Range of Beverages
+              and Cuisine in the Vibrant Seward Neighborhood of
+              Minneapolis</li>
+            <ul className=' marker:text-pri'>
+              <li className=' list-disc list ml-5 my-1'> <span className=' font-semibold'>Technologies used: </span>HTML , CSS, JavaScript , React-Js,
+                Tailwind-CSS.</li>
+              <li className='  list-disc list ml-5 my-1'><span className=' font-semibold'>Link: </span><a className='underline leading-1' href="https://capitolcafe.co/">capitolcafe.co</a> </li>
+            </ul>
+          </div>
+
+
+          {/* <div className="projects-3 leading-8">
             <p className='font-semibold text-lg '>Wireless charging system for electric vehicles using electro magnetic induction.</p>
             <p>October 2020 - July 2021</p>
             <p>Key responsibilities :</p>
@@ -107,16 +160,12 @@ const Resume = () => {
               <li className=' list-disc ml-5 my-1'>Hardware: Arduino Board, Electromagnitic coils, 16X2LCD, Step-down transformer,Electrolytic Capacitor, Regulator and Voltage sensor.</li>
               <li className=' list-disc ml-5 my-1'>Software Technologies: C, Arduino Programming.</li>
             </ul>
-          </div>
-          <div className="projects-2 leading-8">
-            <p className='font-semibold text-lg mt-7'>Hand Gesture Vocalizer for deaf.</p>
+          </div> */}
+          <div className="projects-4 leading-8">
+            <p className='font-semibold text-lg mt-5'>Hand Gesture Vocalizer for deaf.</p>
             <p>Nov 2021 - June 2022</p>
-            <p>Key responsibilities :</p>
             <ul className=' marker:text-pri'>
-              <li className='list-disc ml-5 my-1'>Worked on the software Portion and overall design of the project.</li>
-              <Link to="https://ijisrt.com/hand-gesture-vocaliser-for-deaf" target="_blank"> <li className='list-disc ml-5 my-1'>Published a Paper on IJISRT</li></Link>
-              <li className='list-disc ml-5 my-1'>Hardware: Arduino , Flex sensors, LCD 16x2,.</li>
-              <li className='list-disc ml-5 my-1'>Software Technologies: C, Arduino Programming.</li>
+              <Link to="https://ijisrt.com/hand-gesture-vocaliser-for-deaf" target="_blank"> <li className='list-disc ml-5 my-1 underline'>Published a Paper on IJISRT</li></Link>
             </ul>
           </div>
         </div>
