@@ -15,7 +15,7 @@ const Resume = () => {
       </div>
       <div className='text-center py-6 dark:bg-gray bg-gray mb-5'>
         <p className="heading text-pri font-extrabold text-4xl pb-2">FAISAL <span className=' text-white '>QAYOOM</span> </p>
-        <p className="heading text-white text-lg">Frontend Developer(Fresher)</p>
+        <p className="heading text-white text-lg">Full Stack Developer</p>
       </div>
       <div className='details-wrapper grid md:grid-cols-2 md:space-x-9 px-5'>
         <div className='left-side'>
